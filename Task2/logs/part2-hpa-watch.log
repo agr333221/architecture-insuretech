@@ -1,0 +1,833 @@
+﻿===== 2026-10-05 02:57:51 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          42s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   1m           15Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           49m
+
+===== 2026-10-05 02:58:01 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          52s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   1m           15Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           50m
+
+===== 2026-10-05 02:58:11 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   5511m/5   1         10        1          64s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   1m           15Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/2     2            1           50m
+
+===== 2026-10-05 02:58:24 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   5511m/5   1         10        1          75s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   11m          17Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/2     2            1           50m
+
+===== 2026-10-05 02:58:35 =====
+NAME           REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   26867m/5   1         10        2          86s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   11m          17Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/6     6            1           50m
+
+===== 2026-10-05 02:58:46 =====
+NAME           REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   54161m/5   1         10        6          98s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   11m          17Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/10    10           2           50m
+
+===== 2026-10-05 02:58:57 =====
+NAME           REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   54161m/5   1         10        6          109s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   11m          17Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   3/10    10           3           51m
+
+===== 2026-10-05 02:59:08 =====
+NAME           REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   76271m/5   1         10        10         2m4s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   11m          17Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   6/10    10           6           51m
+
+===== 2026-10-05 02:59:24 =====
+NAME           REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   41025m/5   1         10        10         2m15s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   2m           6Mi             
+scaletestapp-6dd75f784f-6vj8r   3m           4Mi             
+scaletestapp-6dd75f784f-7s6bf   30m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   2m           9Mi             
+scaletestapp-6dd75f784f-ctc4q   3m           2Mi             
+scaletestapp-6dd75f784f-k7dpj   2m           6Mi             
+scaletestapp-6dd75f784f-lz469   2m           6Mi             
+scaletestapp-6dd75f784f-mp9jn   5m           4Mi             
+scaletestapp-6dd75f784f-s4jrq   2m           2Mi             
+scaletestapp-6dd75f784f-vfx5n   2m           4Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          51m
+
+===== 2026-10-05 02:59:34 =====
+NAME           REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   13722m/5   1         10        10         2m25s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   2m           6Mi             
+scaletestapp-6dd75f784f-6vj8r   3m           4Mi             
+scaletestapp-6dd75f784f-7s6bf   30m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   2m           9Mi             
+scaletestapp-6dd75f784f-ctc4q   3m           2Mi             
+scaletestapp-6dd75f784f-k7dpj   2m           6Mi             
+scaletestapp-6dd75f784f-lz469   2m           6Mi             
+scaletestapp-6dd75f784f-mp9jn   5m           4Mi             
+scaletestapp-6dd75f784f-s4jrq   2m           2Mi             
+scaletestapp-6dd75f784f-vfx5n   2m           4Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          51m
+
+===== 2026-10-05 02:59:45 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   9161m/5   1         10        10         2m36s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   2m           6Mi             
+scaletestapp-6dd75f784f-6vj8r   3m           4Mi             
+scaletestapp-6dd75f784f-7s6bf   30m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   2m           9Mi             
+scaletestapp-6dd75f784f-ctc4q   3m           2Mi             
+scaletestapp-6dd75f784f-k7dpj   2m           6Mi             
+scaletestapp-6dd75f784f-lz469   2m           6Mi             
+scaletestapp-6dd75f784f-mp9jn   5m           4Mi             
+scaletestapp-6dd75f784f-s4jrq   2m           2Mi             
+scaletestapp-6dd75f784f-vfx5n   2m           4Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          51m
+
+===== 2026-10-05 02:59:55 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   9161m/5   1         10        10         2m46s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   2m           6Mi             
+scaletestapp-6dd75f784f-6vj8r   3m           4Mi             
+scaletestapp-6dd75f784f-7s6bf   30m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   2m           9Mi             
+scaletestapp-6dd75f784f-ctc4q   3m           2Mi             
+scaletestapp-6dd75f784f-k7dpj   2m           6Mi             
+scaletestapp-6dd75f784f-lz469   2m           6Mi             
+scaletestapp-6dd75f784f-mp9jn   5m           4Mi             
+scaletestapp-6dd75f784f-s4jrq   2m           2Mi             
+scaletestapp-6dd75f784f-vfx5n   2m           4Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          51m
+
+===== 2026-10-05 03:00:06 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8304m/5   1         10        10         2m57s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   2m           6Mi             
+scaletestapp-6dd75f784f-6vj8r   3m           4Mi             
+scaletestapp-6dd75f784f-7s6bf   30m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   2m           9Mi             
+scaletestapp-6dd75f784f-ctc4q   3m           2Mi             
+scaletestapp-6dd75f784f-k7dpj   2m           6Mi             
+scaletestapp-6dd75f784f-lz469   2m           6Mi             
+scaletestapp-6dd75f784f-mp9jn   5m           4Mi             
+scaletestapp-6dd75f784f-s4jrq   2m           2Mi             
+scaletestapp-6dd75f784f-vfx5n   2m           4Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          52m
+
+===== 2026-10-05 03:00:40 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8180m/5   1         10        10         3m31s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           8Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           6Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           7Mi             
+scaletestapp-6dd75f784f-k7dpj   1m           8Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           9Mi             
+scaletestapp-6dd75f784f-s4jrq   1m           7Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           7Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          52m
+
+===== 2026-10-05 03:00:50 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8140m/5   1         10        10         3m41s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           8Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           6Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           7Mi             
+scaletestapp-6dd75f784f-k7dpj   1m           8Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           9Mi             
+scaletestapp-6dd75f784f-s4jrq   1m           7Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           7Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          52m
+
+===== 2026-10-05 03:01:01 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8151m/5   1         10        10         3m52s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           8Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           6Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           7Mi             
+scaletestapp-6dd75f784f-k7dpj   1m           8Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           9Mi             
+scaletestapp-6dd75f784f-s4jrq   1m           7Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           7Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          53m
+
+===== 2026-10-05 03:01:11 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8151m/5   1         10        10         4m3s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           8Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           6Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           7Mi             
+scaletestapp-6dd75f784f-k7dpj   1m           8Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           9Mi             
+scaletestapp-6dd75f784f-s4jrq   1m           7Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           7Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          53m
+
+===== 2026-10-05 03:01:22 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8175m/5   1         10        10         4m13s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           6Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           8Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           7Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           8Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          53m
+
+===== 2026-10-05 03:01:33 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8207m/5   1         10        10         4m24s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           6Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           8Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           7Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           8Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          53m
+
+===== 2026-10-05 03:01:43 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8207m/5   1         10        10         4m34s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           6Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           8Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           7Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           8Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          53m
+
+===== 2026-10-05 03:01:53 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8231m/5   1         10        10         4m45s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           6Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           8Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           7Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           8Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          53m
+
+===== 2026-10-05 03:02:04 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8302m/5   1         10        10         4m55s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           6Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           8Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           7Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           8Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          54m
+
+===== 2026-10-05 03:02:15 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8302m/5   1         10        10         5m6s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           6Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           8Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           7Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           8Mi             
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          54m
+
+===== 2026-10-05 03:02:25 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8318m/5   1         10        10         5m16s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          20Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           9Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           11Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           8Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           10Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          54m
+
+===== 2026-10-05 03:02:36 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8353m/5   1         10        10         5m27s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          20Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           9Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           11Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           8Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           10Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          54m
+
+===== 2026-10-05 03:03:08 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8198m/5   1         10        10         5m59s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          20Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           9Mi             
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           11Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           8Mi             
+scaletestapp-6dd75f784f-vfx5n   1m           10Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          55m
+
+===== 2026-10-05 03:03:18 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8087m/5   1         10        10         6m10s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           11Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           10Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          55m
+
+===== 2026-10-05 03:03:29 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8087m/5   1         10        10         6m20s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           11Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           10Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          55m
+
+===== 2026-10-05 03:03:39 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8084m/5   1         10        10         6m31s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           11Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           10Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          55m
+
+===== 2026-10-05 03:03:50 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8082m/5   1         10        10         6m41s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           11Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           10Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          55m
+
+===== 2026-10-05 03:04:00 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8082m/5   1         10        10         6m52s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           11Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           10Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          56m
+
+===== 2026-10-05 03:04:11 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8167m/5   1         10        10         7m2s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           9Mi             
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          19Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           11Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           8Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           10Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          56m
+
+===== 2026-10-05 03:04:22 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8180m/5   1         10        10         7m13s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           10Mi            
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          21Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           9Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           11Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          56m
+
+===== 2026-10-05 03:04:32 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8180m/5   1         10        10         7m23s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           10Mi            
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          21Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           9Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           11Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          56m
+
+===== 2026-10-05 03:04:43 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8129m/5   1         10        10         7m34s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           10Mi            
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          21Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           9Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           11Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          56m
+
+===== 2026-10-05 03:04:53 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8087m/5   1         10        10         7m44s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           10Mi            
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          21Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           9Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           11Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          56m
+
+===== 2026-10-05 03:05:03 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8107m/5   1         10        10         7m54s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           10Mi            
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          21Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           9Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           11Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          57m
+
+===== 2026-10-05 03:05:14 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8107m/5   1         10        10         8m5s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           10Mi            
+scaletestapp-6dd75f784f-6vj8r   1m           8Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          21Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           10Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           10Mi            
+scaletestapp-6dd75f784f-lz469   1m           9Mi             
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           11Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           12Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          57m
+
+===== 2026-10-05 03:05:24 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8216m/5   1         10        10         8m15s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           10Mi            
+scaletestapp-6dd75f784f-6vj8r   1m           9Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          18Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           11Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           11Mi            
+scaletestapp-6dd75f784f-lz469   1m           10Mi            
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           10Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           13Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          57m
+
+===== 2026-10-05 03:05:35 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8226m/5   1         10        10         8m26s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           10Mi            
+scaletestapp-6dd75f784f-6vj8r   1m           9Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          18Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           11Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           11Mi            
+scaletestapp-6dd75f784f-lz469   1m           10Mi            
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           10Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           13Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          57m
+
+===== 2026-10-05 03:05:45 =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   8226m/5   1         10        10         8m37s
+
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-5lwzq   1m           10Mi            
+scaletestapp-6dd75f784f-6vj8r   1m           9Mi             
+scaletestapp-6dd75f784f-7s6bf   22m          18Mi            
+scaletestapp-6dd75f784f-bx9nz   1m           11Mi            
+scaletestapp-6dd75f784f-ctc4q   1m           10Mi            
+scaletestapp-6dd75f784f-k7dpj   1m           11Mi            
+scaletestapp-6dd75f784f-lz469   1m           10Mi            
+scaletestapp-6dd75f784f-mp9jn   1m           10Mi            
+scaletestapp-6dd75f784f-s4jrq   1m           10Mi            
+scaletestapp-6dd75f784f-vfx5n   1m           13Mi            
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          57m
+
+===== 2026-10-05 03:06:22 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   6171m/5   1         10        10         9m14s
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          58m
+
+===== 2026-10-05 03:06:33 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   6171m/5   1         10        10         9m24s
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          58m
+
+===== 2026-10-05 03:06:43 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   737m/5    1         10        10         9m34s
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          58m
+
+===== 2026-10-05 03:06:53 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   53m/5     1         10        10         9m45s
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          58m
+
+===== 2026-10-05 03:07:04 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        10         9m55s
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          59m
+
+===== 2026-10-05 03:07:14 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        10         10m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          59m
+
+===== 2026-10-05 03:07:25 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        10         10m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           59m
+
+===== 2026-10-05 03:07:35 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        2          10m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/1     2            2           59m
+
+===== 2026-10-05 03:07:46 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        2          10m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           59m
+
+===== 2026-10-05 03:07:56 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          10m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           59m
+
+===== 2026-10-05 03:08:07 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          10m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           60m
+
+===== 2026-10-05 03:08:17 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          11m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           60m
+
+===== 2026-10-05 03:08:27 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          11m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           60m
+
+===== 2026-10-05 03:08:37 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          11m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           60m
+
+===== 2026-10-05 03:08:48 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          11m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           60m
+
+===== 2026-10-05 03:08:58 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          11m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           61m
+
+===== 2026-10-05 03:09:08 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          12m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           61m
+
+===== 2026-10-05 03:09:19 (after load) =====
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          12m
+
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           61m
+

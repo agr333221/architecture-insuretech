@@ -1,0 +1,10 @@
+﻿# 2026-10-05 02:10:05
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 45%/80%   1         10        1          75s
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   2m           6Mi             
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           2m8s
+NAME                            READY   STATUS    RESTARTS   AGE    IP           NODE      NOMINATED NODE   READINESS GATES
+scaletestapp-6dd75f784f-7s6bf   1/1     Running   0          2m6s   10.244.0.6   sprint8   <none>           <none>
+

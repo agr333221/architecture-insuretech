@@ -1,0 +1,45 @@
+# Deployment тестового приложения scaletestapp.
+# Начальное количество реплик - 1, лимит памяти - 30Mi.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: scaletestapp
+  labels:
+    app: scaletestapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: scaletestapp
+  template:
+    metadata:
+      labels:
+        app: scaletestapp
+    spec:
+      containers:
+        - name: scaletestapp
+          image: ghcr.io/yandex-practicum/scaletestapp:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8080
+          resources:
+            # HPA считает утилизацию памяти относительно requests.
+            # requests = 15Mi: цель 80% = 12Mi, с допуском HPA 10% масштабирование
+            # начинается с ~13.2Mi. В покое под занимает 5-7Mi (33-47%),
+            # под нагрузкой ~16Mi (~107%) - HPA добавляет реплики до лимита 30Mi.
+            # При requests = limits = 30Mi порог был бы ~26.4Mi, почти у лимита:
+            # под убивается по OOM раньше, чем HPA успевает добавить реплики.
+            requests:
+              cpu: 50m
+              memory: 15Mi
+            limits:
+              memory: 30Mi
+          readinessProbe:
+            # /metrics, а не /: запросы к / увеличивают http_requests_total,
+            # по которому работает HPA части 2.
+            httpGet:
+              path: /metrics
+              port: http
+            initialDelaySeconds: 3
+            periodSeconds: 5

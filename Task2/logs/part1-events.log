@@ -1,0 +1,35 @@
+﻿# 2026-10-05 02:22:51
+LAST SEEN   TYPE      REASON                              OBJECT                                 MESSAGE
+15m         Normal    Starting                            node/sprint8                           
+17m         Warning   PossibleMemoryBackedVolumesOnDisk   node/sprint8                           The tmpfs noswap option is not supported. Memory-backed volumes (e.g. secrets, emptyDirs, etc.) might be swapped to disk and should no longer be considered secure.
+17m         Warning   CgroupV1                            node/sprint8                           cgroup v1 detected. cgroup v1 support is deprecated and will be removed in a future release. Please migrate to cgroup v2. More information at https://git.k8s.io/enhancements/keps/sig-node/5573-remove-cgroup-v1
+17m         Normal    Starting                            node/sprint8                           Starting kubelet.
+17m         Normal    NodeAllocatableEnforced             node/sprint8                           Updated Node Allocatable limit across pods
+17m         Normal    NodeHasSufficientPID                node/sprint8                           Node sprint8 status is now: NodeHasSufficientPID
+17m         Normal    NodeHasNoDiskPressure               node/sprint8                           Node sprint8 status is now: NodeHasNoDiskPressure
+17m         Normal    NodeHasSufficientMemory             node/sprint8                           Node sprint8 status is now: NodeHasSufficientMemory
+16m         Normal    Starting                            node/sprint8                           Starting kubelet.
+16m         Warning   CgroupV1                            node/sprint8                           cgroup v1 detected. cgroup v1 support is deprecated and will be removed in a future release. Please migrate to cgroup v2. More information at https://git.k8s.io/enhancements/keps/sig-node/5573-remove-cgroup-v1
+16m         Warning   PossibleMemoryBackedVolumesOnDisk   node/sprint8                           The tmpfs noswap option is not supported. Memory-backed volumes (e.g. secrets, emptyDirs, etc.) might be swapped to disk and should no longer be considered secure.
+16m         Normal    NodeAllocatableEnforced             node/sprint8                           Updated Node Allocatable limit across pods
+16m         Normal    NodeHasSufficientPID                node/sprint8                           Node sprint8 status is now: NodeHasSufficientPID
+16m         Normal    NodeHasNoDiskPressure               node/sprint8                           Node sprint8 status is now: NodeHasNoDiskPressure
+16m         Normal    NodeHasSufficientMemory             node/sprint8                           Node sprint8 status is now: NodeHasSufficientMemory
+16m         Normal    RegisteredNode                      node/sprint8                           Node sprint8 event: Registered Node sprint8 in Controller
+14m         Normal    ScalingReplicaSet                   deployment/scaletestapp                Scaled up replica set scaletestapp-6dd75f784f from 0 to 1
+14m         Normal    SuccessfulCreate                    replicaset/scaletestapp-6dd75f784f     Created pod: scaletestapp-6dd75f784f-7s6bf
+14m         Normal    Scheduled                           pod/scaletestapp-6dd75f784f-7s6bf      Successfully assigned default/scaletestapp-6dd75f784f-7s6bf to sprint8
+14m         Normal    Pulling                             pod/scaletestapp-6dd75f784f-7s6bf      Pulling image "ghcr.io/yandex-practicum/scaletestapp:latest"
+14m         Normal    Pulled                              pod/scaletestapp-6dd75f784f-7s6bf      Successfully pulled image "ghcr.io/yandex-practicum/scaletestapp:latest" in 10.699s (20.086s including waiting). Image size: 10812525 bytes.
+14m         Normal    Created                             pod/scaletestapp-6dd75f784f-7s6bf      Container created
+14m         Normal    Started                             pod/scaletestapp-6dd75f784f-7s6bf      Container started
+13m         Warning   FailedComputeMetricsReplicas        horizontalpodautoscaler/scaletestapp   invalid metrics (1 invalid out of 1), first error is: failed to get memory resource metric value: failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+13m         Warning   FailedGetResourceMetric             horizontalpodautoscaler/scaletestapp   failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+6m24s       Normal    SuccessfulRescale                   horizontalpodautoscaler/scaletestapp   New size: 2; reason: memory resource utilization (percentage of request) above target
+6m24s       Normal    ScalingReplicaSet                   deployment/scaletestapp                Scaled up replica set scaletestapp-6dd75f784f from 1 to 2
+6m23s       Normal    Scheduled                           pod/scaletestapp-6dd75f784f-gtpzw      Successfully assigned default/scaletestapp-6dd75f784f-gtpzw to sprint8
+6m23s       Normal    SuccessfulCreate                    replicaset/scaletestapp-6dd75f784f     Created pod: scaletestapp-6dd75f784f-gtpzw
+6m19s       Normal    Pulled                              pod/scaletestapp-6dd75f784f-gtpzw      Container image "ghcr.io/yandex-practicum/scaletestapp:latest" already present on machine and can be accessed by the pod
+6m17s       Normal    Created                             pod/scaletestapp-6dd75f784f-gtpzw      Container created
+6m16s       Normal    Started                             pod/scaletestapp-6dd75f784f-gtpzw      Container started
+

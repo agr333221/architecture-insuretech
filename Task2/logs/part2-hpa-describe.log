@@ -1,0 +1,47 @@
+﻿# 2026-10-05 03:09:30
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   0/5       1         10        1          12m
+Name:                                  scaletestapp
+Namespace:                             default
+Labels:                                <none>
+Annotations:                           <none>
+CreationTimestamp:                     Mon, 05 Oct 2026 02:57:09 +0300
+Reference:                             Deployment/scaletestapp
+Metrics:                               ( current / target )
+  "http_requests_per_second" on pods:  0 / 5
+Min replicas:                          1
+Max replicas:                          10
+Behavior:
+  Scale Up:
+    Stabilization Window: 0 seconds
+    Select Policy: Max
+    Policies:
+      - Type: Pods     Value: 4    Period: 15 seconds
+      - Type: Percent  Value: 100  Period: 15 seconds
+  Scale Down:
+    Stabilization Window: 60 seconds
+    Select Policy: Max
+    Policies:
+      - Type: Percent  Value: 100  Period: 15 seconds
+Deployment pods:       1 current / 1 desired
+Conditions:
+  Type            Status  Reason            Message
+  ----            ------  ------            -------
+  AbleToScale     True    ReadyForNewScale  recommended size matches current size
+  ScalingActive   True    ValidMetricFound  the HPA was able to successfully calculate a replica count from pods metric http_requests_per_second
+  ScalingLimited  True    TooFewReplicas    the desired replica count is less than the minimum replica count
+Events:
+  Type    Reason             Age    From                       Message
+  ----    ------             ----   ----                       -------
+  Normal  SuccessfulRescale  11m    horizontal-pod-autoscaler  New size: 2; reason: pods metric http_requests_per_second above target
+  Normal  SuccessfulRescale  11m    horizontal-pod-autoscaler  New size: 6; reason: pods metric http_requests_per_second above target
+  Normal  SuccessfulRescale  10m    horizontal-pod-autoscaler  New size: 10; reason: pods metric http_requests_per_second above target
+  Normal  SuccessfulRescale  2m11s  horizontal-pod-autoscaler  New size: 2; reason: All metrics below target
+  Normal  SuccessfulRescale  115s   horizontal-pod-autoscaler  New size: 1; reason: All metrics below target
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   1/1     1            1           61m
+NAME                            READY   STATUS    RESTARTS   AGE   IP           NODE      NOMINATED NODE   READINESS GATES
+scaletestapp-6dd75f784f-7s6bf   1/1     Running   0          61m   10.244.0.6   sprint8   <none>           <none>
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   1m           16Mi            
+

@@ -1,0 +1,31 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261005131557
+Username: WS05\user
+RunAs User: WS05\user
+Configuration Name: 
+Machine: WS05 (Microsoft Windows NT 10.0.19045.0)
+Host Application: powershell -NoProfile -ExecutionPolicy Bypass -File T:\architecture-insuretech\Task2\scripts\run-task2.ps1
+Process ID: 19720
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+[13:15:57] Проверка инструментов
+docker : failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct 
+and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+At T:\architecture-insuretech\Task2\scripts\run-task2.ps1:80 char:1
++ docker info *> $null
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (failed to conne...file specified.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ОШИБКА: Docker Desktop не запущен. Запустите Docker Desktop, дождитесь статуса Engine running и повторите.
+**********************
+Windows PowerShell transcript end
+End time: 20261005131558
+**********************

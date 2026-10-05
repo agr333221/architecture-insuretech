@@ -1,0 +1,87 @@
+# GraphQL-схема сервиса управления клиентскими данными (client-info).
+# Эквивалент REST API v1:
+#   GET /clients/{id}            -> Query.client(id)
+#   GET /clients/{id}/documents  -> Query.client(id) { documents } или Query.clientDocuments(clientId)
+#   GET /clients/{id}/relatives  -> Query.client(id) { relatives } или Query.clientRelatives(clientId)
+#
+# Потребитель (веб-приложение, core-app) одним запросом получает
+# только нужные ему поля клиента и связанных объектов, без лишних
+# вызовов и без передачи всей карточки клиента.
+
+"""
+Клиент сервиса.
+"""
+type Client {
+  "ID клиента"
+  id: ID!
+  "ФИО клиента"
+  name: String
+  "Возраст клиента"
+  age: Int
+  "Документы клиента. Можно отфильтровать по типу документа."
+  documents(type: String): [Document!]!
+  "Родственники клиента. Можно отфильтровать по типу родства."
+  relatives(relationType: String): [Relative!]!
+}
+
+"""
+Документ клиента.
+"""
+type Document {
+  "ID документа"
+  id: ID!
+  "Тип документа (паспорт, водительское удостоверение и т.п.)"
+  type: String
+  "Номер документа"
+  number: String
+  "Дата выдачи (ISO 8601, YYYY-MM-DD)"
+  issueDate: String
+  "Дата окончания действия (ISO 8601, YYYY-MM-DD)"
+  expiryDate: String
+}
+
+"""
+Родственник клиента.
+"""
+type Relative {
+  "ID родственника"
+  id: ID!
+  "Тип родства (супруг, ребенок, родитель и т.п.)"
+  relationType: String
+  "ФИО родственника"
+  name: String
+  "Возраст родственника"
+  age: Int
+}
+
+type Query {
+  "Получить информацию о клиенте по ID (аналог GET /clients/{id}). Документы и родственники запрашиваются вложенными полями."
+  client(id: ID!): Client
+
+  "Список документов клиента (аналог GET /clients/{id}/documents)."
+  clientDocuments(clientId: ID!): [Document!]!
+
+  "Информация о родственниках клиента (аналог GET /clients/{id}/relatives)."
+  clientRelatives(clientId: ID!): [Relative!]!
+}
+
+schema {
+  query: Query
+}
+
+# Пример запроса: данные клиента, его паспорт и дети одним вызовом.
+#
+# query ClientCard($id: ID!) {
+#   client(id: $id) {
+#     id
+#     name
+#     documents(type: "passport") {
+#       number
+#       expiryDate
+#     }
+#     relatives(relationType: "child") {
+#       name
+#       age
+#     }
+#   }
+# }

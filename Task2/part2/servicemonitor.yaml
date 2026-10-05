@@ -1,0 +1,19 @@
+# Экспорт метрик приложения в Prometheus: Prometheus Operator забирает /metrics с порта http сервиса.
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: scaletestapp
+  labels:
+    app: scaletestapp
+    release: prometheus-operator
+spec:
+  selector:
+    matchLabels:
+      app: scaletestapp
+  namespaceSelector:
+    matchNames:
+      - default
+  endpoints:
+    - port: http
+      path: /metrics
+      interval: 15s

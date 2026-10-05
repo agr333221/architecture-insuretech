@@ -1,0 +1,34 @@
+﻿# 2026-10-05 02:06:54
+minikube version: v1.38.1
+commit: c93a4cb9311efc66b90d33ea03f75f2c4120e9b0
+sprint8
+type: Control Plane
+host: Running
+kubelet: Running
+apiserver: Running
+kubeconfig: Configured
+
+Client Version: v1.36.1
+Kustomize Version: v5.8.1
+Server Version: v1.35.1
+NAME      STATUS   ROLES           AGE   VERSION   INTERNAL-IP    EXTERNAL-IP   OS-IMAGE                         KERNEL-VERSION                       CONTAINER-RUNTIME
+sprint8   Ready    control-plane   66s   v1.35.1   192.168.49.2   <none>        Debian GNU/Linux 12 (bookworm)   5.15.167.4-microsoft-standard-WSL2   docker://29.2.1
+
+│ [32mdashboard[0m                   │ [32msprint8[0m │ [32menabled ✅[0m │ [32mKubernetes[0m                   
+          │
+│ [32mmetrics-server[0m              │ [32msprint8[0m │ [32menabled ✅[0m │ [32mKubernetes[0m                   
+          │
+NAMESPACE              NAME                                         READY   STATUS              RESTARTS   AGE
+kube-system            coredns-7d764666f9-s7hfn                     0/1     ContainerCreating   0          10s
+kube-system            etcd-sprint8                                 1/1     Running             0          65s
+kube-system            kube-apiserver-sprint8                       1/1     Running             0          65s
+kube-system            kube-controller-manager-sprint8              1/1     Running             2          66s
+kube-system            kube-proxy-9kwgj                             0/1     ContainerCreating   0          10s
+kube-system            kube-scheduler-sprint8                       1/1     Running             0          65s
+kube-system            metrics-server-9d74bb658-vndkj               0/1     ContainerCreating   0          10s
+kube-system            storage-provisioner                          0/1     ContainerCreating   0          22s
+kubernetes-dashboard   dashboard-metrics-scraper-5565989548-lb8c4   0/1     ContainerCreating   0          9s
+kubernetes-dashboard   kubernetes-dashboard-b84665fb8-b7qq4         0/1     ContainerCreating   0          9s
+
+
+
