@@ -1,0 +1,5 @@
+﻿# 2026-10-05 02:57:09
+horizontalpodautoscaler.autoscaling/scaletestapp created
+NAME           REFERENCE                 TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   <unknown>/5   1         10        0          0s
+

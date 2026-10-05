@@ -1,0 +1,5 @@
+﻿# 2026-10-05 02:57:04
+NAME                            SERVICE                         AVAILABLE   AGE
+v1beta1.custom.metrics.k8s.io   monitoring/prometheus-adapter   True        5m59s
+{"kind":"MetricValueList","apiVersion":"custom.metrics.k8s.io/v1beta1","metadata":{},"items":[{"describedObject":{"kind":"Pod","namespace":"default","name":"scaletestapp-6dd75f784f-7s6bf","apiVersion":"/v1"},"metricName":"http_requests_per_second","timestamp":"2026-10-04T23:57:04Z","value":"0","selector":null}]}
+

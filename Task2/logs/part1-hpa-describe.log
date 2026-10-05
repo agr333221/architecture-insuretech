@@ -1,0 +1,35 @@
+﻿# 2026-10-05 02:22:50
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 68%/80%   1         10        2          14m
+Name:                                                     scaletestapp
+Namespace:                                                default
+Labels:                                                   <none>
+Annotations:                                              <none>
+CreationTimestamp:                                        Mon, 05 Oct 2026 02:08:51 +0300
+Reference:                                                Deployment/scaletestapp
+Metrics:                                                  ( current / target )
+  resource memory on pods  (as a percentage of request):  68% (10462Ki) / 80%
+Min replicas:                                             1
+Max replicas:                                             10
+Deployment pods:                                          2 current / 2 desired
+Conditions:
+  Type            Status  Reason              Message
+  ----            ------  ------              -------
+  AbleToScale     True    ReadyForNewScale    recommended size matches current size
+  ScalingActive   True    ValidMetricFound    the HPA was able to successfully calculate a replica count from memory resource utilization (percentage of request)
+  ScalingLimited  False   DesiredWithinRange  the desired count is within the acceptable range
+Events:
+  Type     Reason                        Age    From                       Message
+  ----     ------                        ----   ----                       -------
+  Warning  FailedGetResourceMetric       13m    horizontal-pod-autoscaler  failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+  Warning  FailedComputeMetricsReplicas  13m    horizontal-pod-autoscaler  invalid metrics (1 invalid out of 1), first error is: failed to get memory resource metric value: failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+  Normal   SuccessfulRescale             6m23s  horizontal-pod-autoscaler  New size: 2; reason: memory resource utilization (percentage of request) above target
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   2/2     2            2           14m
+NAME                            READY   STATUS    RESTARTS   AGE     IP           NODE      NOMINATED NODE   READINESS GATES
+scaletestapp-6dd75f784f-7s6bf   1/1     Running   0          14m     10.244.0.6   sprint8   <none>           <none>
+scaletestapp-6dd75f784f-gtpzw   1/1     Running   0          6m23s   10.244.0.7   sprint8   <none>           <none>
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-6dd75f784f-7s6bf   1m           12Mi            
+scaletestapp-6dd75f784f-gtpzw   1m           7Mi             
+

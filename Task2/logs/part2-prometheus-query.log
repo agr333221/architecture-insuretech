@@ -1,0 +1,4 @@
+﻿# 2026-10-05 03:10:07
+query: sum by (pod) (rate(http_requests_total{service="scaletestapp"}[1m]))
+{"status":"success","data":{"resultType":"vector","result":[{"metric":{"pod":"scaletestapp-6dd75f784f-7s6bf"},"value":[1791159007.096,"0"]}]}}
+

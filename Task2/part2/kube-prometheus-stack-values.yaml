@@ -1,0 +1,15 @@
+# Облегченная установка kube-prometheus-stack для minikube.
+# Prometheus подхватывает ServiceMonitor из всех namespace без привязки к label release.
+prometheus:
+  prometheusSpec:
+    serviceMonitorSelectorNilUsesHelmValues: false
+    podMonitorSelectorNilUsesHelmValues: false
+    scrapeInterval: 15s
+    retention: 1d
+    resources:
+      requests:
+        memory: 400Mi
+alertmanager:
+  enabled: false
+grafana:
+  enabled: false

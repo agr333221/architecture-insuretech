@@ -1,0 +1,16 @@
+# Service для доступа к приложению (NodePort - для minikube service --url).
+apiVersion: v1
+kind: Service
+metadata:
+  name: scaletestapp
+  labels:
+    app: scaletestapp
+spec:
+  type: NodePort
+  selector:
+    app: scaletestapp
+  ports:
+    - name: http
+      port: 8080
+      targetPort: http
+      nodePort: 30080

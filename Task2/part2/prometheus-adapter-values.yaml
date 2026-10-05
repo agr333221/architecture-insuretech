@@ -1,0 +1,19 @@
+# Prometheus Adapter: публикует в Custom Metrics API метрику
+# http_requests_per_second = rate(http_requests_total[1m]) для каждого пода.
+prometheus:
+  url: http://prometheus-operator-kube-p-prometheus.monitoring.svc
+  port: 9090
+rules:
+  default: false
+  custom:
+    - seriesQuery: 'http_requests_total{namespace!="",pod!=""}'
+      resources:
+        overrides:
+          namespace:
+            resource: namespace
+          pod:
+            resource: pod
+      name:
+        matches: "^(.*)_total$"
+        as: "${1}_per_second"
+      metricsQuery: 'sum(rate(<<.Series>>{<<.LabelMatchers>>}[1m])) by (<<.GroupBy>>)'
